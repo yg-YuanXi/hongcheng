@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* 头部 导航 */
+.nav {
+    width: 1000px;
+    height: 70px;
+    margin: 0 auto;
+    background: url(../images/logo.jpg) no-repeat center left;
+}
+/* 电话号 样式 */
+.nav b {
+    color: #2C6EC5;
+    padding-left: 25px;
+    float: right;
+    margin-top: 9px;
+    background: url(../images/phone.png) no-repeat center left;
+}
+/* 导航栏 */
+.nav ul {
+    list-style: none;
+    margin-top: 34px;
+    margin-right: -157px;
+    float: right;
+}
+.nav ul li {
+    float: left;
+    padding-left: 28px;
+}
+/* 导航 字体颜色 */
+.nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 700;
+    font-size: 12px;
+}
+.nav ul li a:hover {
+    color: red;
+}
+
+/* 当前位置 */
+.current {
+    width: "100%";
+    border-bottom: 2px solid #E9E9E9;
+}
+.current p {
+    width: 1000px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #888;
+}
+/* 内容 目录 */
+.directory {
+    width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 300px;
+    position: relative;
+}
+.directory ul {
+    list-style: none;
+    margin-bottom: 40px;
+}
+/* 关于我们 */
+.directory h3 {
+    width: 200px;
+    height: 60px;
+    display: block;
+    background: #186EC5;
+    color: #FFFFFF;
+    padding-top: 40px;
+}
+.directory h3 span {
+    margin-left: 40px;
+    padding-bottom: 3px;
+    border-bottom: 2px solid #FFFFFF;
+}
+/* 3个简介 样式 */
+.directory ul a {
+    width: 182px;
+    height: 30px;
+    display: block;
+    text-decoration: none;
+    color: #333;
+    padding-left: 18px;
+    padding-top: 10px;
+    background: #EFEFEF;
+    margin-bottom: 1px;
+}
+.directory ul a:hover {
+    background: #1B82EB;
+}
+.directory ul a img {
+    margin-right: 15px;
+    margin-bottom: 3px;
+}
+/* 内容 */
+.content {
+    width: 770px;
+    position: absolute;
+    top: 30px;
+    right: 0px;
+}
+.content p {
+    text-indent: 1em;
+    color: #333;
+    font-size: 13px;
+    line-height: 29px;
+}
+
+/* 底部盒子 */
+.footer-box {
+    width: 100%;
+    float: left;
+    background: url(../images/footer_bg.png);
+}
+.footer {
+    width: 1000px;
+    margin: 0 auto;
+}
+/* 底部导航 */
+.footer .pa {
+    color: #F8F8F8;
+    margin-top: 25px;
+    font-size: 12px;
+    margin-bottom: 30px;
+    margin-left: -10px;
+} 
+/* 导航 字体颜色 */
+.footer .pa a {
+    color: #F8F8F8;
+    font-size: 12px;
+    padding: 0 10px;
+    text-decoration: none;
+}
+/* 下拉列表 */
+.footer .pa select {
+    width: 103px;
+    height: 25px;
+    float: right;
+    margin-top: -3px;
+    padding-left: 5px;
+    color: #F8F8F8;
+    background: url(../images/select.png) no-repeat center right;
+    /* 去除chrome浏览器的默认下拉图片 */
+    -webkit-appearance: none;      
+}
+.footer .pa select option{
+    background: #000;
+}
+.footer .pa span {
+    float: right;
+    margin-right: 5px;
+}
+.footer .ps {
+    color: #F8F8F8;
+    font-size: 12px;
+    margin-bottom: 25px;
+}
+.footer .ps span {
+    float: right;
+}
+/* 在线咨询 */
+.l-fixed {
+    position:fixed;
+    bottom: 200px;
+    left: 10px;
+}
+/* 回到顶部 */
+.r-fixed {
+    list-style: none;
+    position:fixed;
+    top: 260px;
+    right: 0px;
+}
+.r-fixed #back {
+    width: 46px;
+    height: 51px;
+    display: inline-block;
+    background: url(../images/ab8.png) no-repeat;
+    text-align: center;
+    line-height: 65px;
+    margin-bottom: 4px;
+}
+.r-fixed #back a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #F8F8F8;
+}

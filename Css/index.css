@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* 头部 导航 */
+.nav {
+    width: 1000px;
+    height: 70px;
+    margin: 0 auto;
+    background: url(../images/logo.jpg) no-repeat center left;
+}
+/* 电话号 样式 */
+.nav b {
+    color: #2C6EC5;
+    padding-left: 25px;
+    float: right;
+    margin-top: 9px;
+    background: url(../images/phone.png) no-repeat center left;
+}
+/* 导航栏 */
+.nav ul {
+    list-style: none;
+    margin-top: 34px;
+    margin-right: -157px;
+    float: right;
+}
+.nav ul li {
+    float: left;
+    padding-left: 28px;
+}
+/* 导航 字体颜色 */
+.nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 700;
+    font-size: 12px;
+}
+.nav ul li a:hover {
+    color: red;
+}
+/* 轮播图 */
+.Limg {
+    position: relative;
+}
+.Limg #lunbo {
+    width: 100%;
+}
+/* 点击 上一个按钮 */
+.Limg #prev {
+    position: absolute;
+    top: 50%;
+    left: 80px;
+    margin-top: -30px;
+}
+/* 点击 下一个按钮 */
+.Limg #next {
+    position: absolute;
+    top: 50%;
+    right: 80px;
+    margin-top: -30px;
+}
+/* 简介 */
+.brief {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+/* h4 标题 */
+.brief h4 {
+    padding-left: 8px;
+    background: url(../images/title_bg.png) no-repeat 0 2px;
+}
+/* 简介 所有的 a 链接 */
+.brief a {
+    text-decoration: none;
+    color: #666;
+    font-size: 12px;
+}
+.brief b {
+    float: right;
+    margin-top: -22px;
+}
+/* 关于我们 */
+.brief .about {
+    width: 320px;
+    float: left;
+}
+.brief .about img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.brief .about p {
+    font-size: 14px;
+    line-height: 30px;
+}
+/* 新闻动态 */
+.brief .news {
+    width: 320px;
+    float: left;
+    margin-left: 20px;
+}
+.brief .news h5 {
+    margin-top: 18px;
+}
+.brief .news h5 a {
+    color: black;
+}
+.brief .news p {
+    width: 182px;
+    margin-top: 5px;
+    margin-bottom: 21px;
+    /* 多行超出显示省略号 */
+    display: -webkit-box;
+    overflow: hidden; 
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.brief .news img {
+    float: right;
+    margin-top: -84px;
+}
+.brief .news b span {
+    color: #666;
+    font-size: 13px;
+    font-weight: 500;
+    margin-right: 228px;
+    padding-left: 18px;
+    background: url(../images/date.png) no-repeat center left;
+}
+.brief .news ul {
+    list-style: none;
+    line-height: 30px;
+    margin-top: 44px;
+}
+.brief .news ul span {
+    float: right;
+}
+/* 联系我们 */
+.brief .contact {
+    width: 320px;
+    float: left;
+    margin-left: 20px;
+}
+.brief .contact img {
+    margin-top: 20px;
+}
+.brief .contact p {
+    color: #666;
+    font-size: 13px;
+    padding-left: 20px;
+}
+/* 产品中心 */
+.brief .product {
+    width: 1000px;
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.brief .product .gd {
+    float: right;
+    margin-top: -42px;
+    border-radius: 10px;
+    background: red;
+    padding: 5px 10px;
+    color: white;
+    font-size: 12px;
+}
+/* 右箭头 */
+.brief .product #right {
+    width: 27px;
+    height: 26px;
+    float: right;
+    margin-top: -42px;
+    margin-right: 85px;
+    background: url(../images/btnr.png)
+}
+.brief .product #right:hover {
+    background: url(../images/btnrh.png)
+}
+/* 左箭头 */
+.brief .product #left {
+    width: 27px;
+    height: 26px;
+    float: right;
+    margin-top: -42px;
+    margin-right: 120px;
+    background: url(../images/btnL.png)
+}
+.brief .product #left:hover {
+    background: url(../images/btnLh.png)
+}
+.brief .product img {
+    float: left;
+    width: 235px;
+    margin-right: 15px;
+}
+.brief .product p {
+    width: 225px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+    color: #FFF;
+    padding-left: 10px;
+    background-color: rgba(0, 0, 0, .5);
+    position: absolute;
+    bottom: 0;
+}
+#botimg {
+    width: 1000px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+}
+#lb_img {
+    width: 200%;
+    height: 150px;
+    position: absolute;
+    list-style: none;
+}
+
+/* 底部盒子 */
+.footer-box {
+    width: 100%;
+    float: left;
+    background: url(../images/footer_bg.png);
+}
+.footer {
+    width: 1000px;
+    margin: 0 auto;
+}
+/* 底部导航 */
+.footer .pa {
+    color: #F8F8F8;
+    margin-top: 25px;
+    font-size: 12px;
+    margin-bottom: 30px;
+    margin-left: -10px;
+} 
+/* 导航 字体颜色 */
+.footer .pa a {
+    color: #F8F8F8;
+    font-size: 12px;
+    padding: 0 10px;
+    text-decoration: none;
+}
+/* 下拉列表 */
+.footer .pa select {
+    width: 103px;
+    height: 25px;
+    float: right;
+    margin-top: -3px;
+    padding-left: 5px;
+    color: #F8F8F8;
+    background: url(../images/select.png) no-repeat center right;
+    /* 去除chrome浏览器的默认下拉图片 */
+    -webkit-appearance: none;      
+}
+.footer .pa select option{
+    background: #000;
+}
+.footer .pa span {
+    float: right;
+    margin-right: 5px;
+}
+.footer .ps {
+    color: #F8F8F8;
+    font-size: 12px;
+    margin-bottom: 25px;
+}
+.footer .ps span {
+    float: right;
+}
+/* 在线咨询 */
+.l-fixed {
+    position:fixed;
+    bottom: 230px;
+    left: 10px;
+}
+/* 回到顶部 */
+.r-fixed {
+    list-style: none;
+    position:fixed;
+    top: 260px;
+    right: 0px;
+}
+.r-fixed #back {
+    width: 46px;
+    height: 51px;
+    display: inline-block;
+    background: url(../images/ab8.png) no-repeat;
+    text-align: center;
+    line-height: 65px;
+    margin-bottom: 4px;
+}
+.r-fixed #back a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #F8F8F8;
+}
